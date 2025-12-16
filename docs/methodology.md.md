@@ -1,4 +1,4 @@
-4.7 Supervised Learning Models
+Supervised Learning Models
 
 Three supervised learning models were implemented: • Random Forest • XGBoost • LightGBM (best-performing)
 
@@ -61,7 +61,9 @@ random_state=42, to ensures reproducibility.
 
 n_jobs=-1, allow model to use the full power of the CPU for faster training.
 
-4.8 Unsupervised Learning
+-----
+
+Unsupervised Learning
 1. Isola0on Forest
 
 Isola1on Forest was used to detect fraud without using labels. The hyperparameters: • n_es1mators=300, provide enough isola1on trees to create stable degrees of skew. • contamina1on='auto', allow the model expected rate of data outliers to be es1mated. • max_samples='auto', the algorithm is allowed to select op1mal number of samples. • random_state=42, to ensures consistent and reproducible result. • n_jobs=-1, use all available CPU to speed up training.

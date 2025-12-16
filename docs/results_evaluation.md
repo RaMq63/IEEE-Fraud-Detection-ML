@@ -1,12 +1,12 @@
-## Results and Evalua+on
+## Results and Evaluation
 
-This part provides a comprehensive revision of the ML models that had been built for fraud detec1on. the Results showed strong performance and has been visualized in confusion matrices.
+This part provides a comprehensive revision of the ML models that had been built for fraud detection. the Results showed strong performance and has been visualized in confusion matrices.
 
 ----
 
 ## Quanitaive Performance Metrics
 
-All models were measured with Accuracy, Precision, Recall, F1-score, and AUC which provided an overview of the models from all perspec1ves.
+All models were measured with Accuracy, Precision, Recall, F1-score, and AUC which provided an overview of the models from all perspectives.
 
 Model Performance summary:
 | Model                 | Accuracy | Precision (Fraud) | Recall (Fraud) | F1-Score | AUC    |

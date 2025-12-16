@@ -9,14 +9,16 @@ This part provides a comprehensive revision of the ML models that had been built
 All models were measured with Accuracy, Precision, Recall, F1-score, and AUC which provided an overview of the models from all perspec1ves.
 
 Model Performance summary:
+| Model                 | Accuracy | Precision (Fraud) | Recall (Fraud) | F1-Score | AUC    |
+|----------------------|----------|-------------------|----------------|----------|--------|
+| Random Forest        | 0.8797   | 0.18              | 0.71           | 0.29     | 0.8795 |
+| XGBoost (SMOTE)      | 0.8724   | 0.17              | 0.70           | 0.28     | 0.8753 |
+| XGBoost (scale_pos) | 0.9645   | 0.49              | 0.50           | 0.50     | 0.8956 |
+| LightGBM             | 0.9026   | 0.22              | 0.70           | 0.34     | 0.8924 |
+| Isola0on Forest      | 0.8735   | 0.11              | 0.38           | 0.17     | 0.7293 |
 
-Model	accuracy	Precision(Fraud)	Recall(Fraud)	F1-Score	AUC
-Random Forest	0.8797	0.18	0.71	0.29	0.8795
-XGBoost(SMOTE)	0.8724	0.17	0.70	0.28	0.8753
-XGBoost(scale_pos)	0.9645	0.49	0.50	0.50	0.8956
-LightGBM	0.9026	0.22	0.70	0.34	0.8924
-Isola0on Forest	0.8735	0.11	0.38	0.17	0.7293
-Key Observa0ons
+
+Key Observations
 
 • The best-performing model was XGBoost(scale_pos) model, producing the highest precision along with high recall. • High recall values for both Random Forest and LightGBM indicated they were able to capture many fraud cases, but they have predicted high rage of False posi1ve according to Precision. • Isola1on Forest showed strong performance even though it's an unsupervised model.
 

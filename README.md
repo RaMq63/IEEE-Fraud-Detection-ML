@@ -107,14 +107,7 @@ IEEE-CIS-Fraud-Detection/
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
-│
-├── notebooks/
-│   ├── 01_data_loading.ipynb
-│   ├── 02_eda.ipynb
-│   ├── 03_preprocessing.ipynb
-│   ├── 04_supervised_models.ipynb
-│   ├── 05_unsupervised_models.ipynb
-│   └── 06_evaluation.ipynb
+├── ML_Project_Fraud_Detection_Notebook
 │
 ├── docs/
 │   ├── dataset_description.md
@@ -123,14 +116,6 @@ IEEE-CIS-Fraud-Detection/
 │   ├── methodology.md
 │   ├── results_evaluation.md
 │   └── discussion_conclusion.md
-│
-├── results/
-│   ├── confusion_matrices.png
-│   ├── roc_curves.png
-│   └── metrics_table.csv
-│
-└── data/
-    └── README.md
 ```
 
 ---
